@@ -53,7 +53,10 @@ Indicadores Visuales: Se comprendió la importancia de los indicadores visuales 
 5. Integración de Conocimientos Teóricos y Prácticos
 Teoría y Práctica: Se integraron conceptos teóricos de electrónica (como el funcionamiento de transistores y LEDs) con la práctica de construir y probar circuitos reales. Esta experiencia práctica consolidó el entendimiento de los principios teóricos.
 ### <span style="color:green">Video</span>
+* https://youtu.be/NOz_DMDxUzM---medidor de agua
+* https://www.youtube.com/watch?v=_or5QkrHyXM
 
+  
 ### <span style="color:green">Conclusiones</span>
 El circuito diseñado resultó ser muy efectivo para detectar niveles de agua. Utilizando transistores como interruptores, se logró encender los LEDs cuando los puntos de detección tocaban el agua. Esto comprobó la fiabilidad del circuito para mostrar los niveles de líquido de manera precisa.
 
