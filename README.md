@@ -17,6 +17,11 @@
   - **<span style="color:green">Visualizar la interacción y el funcionamiento entre los componentes que forman el circuito.</span>**
 
 ### <span style="color:green">Marco Teórico</span>
+(Resumen)
+En el proyecto de detector de nivel de agua, se utilizó un circuito simple para identificar la presencia de agua en diferentes niveles de un recipiente. Los puntos de detección de nivel de agua fueron ubicados dentro del recipiente. Cuando el agua alcanzaba un punto de detección, permitía que la corriente eléctrica fluyera hacia la base de un transistor correspondiente. Este flujo de corriente activaba el transistor, permitiendo que la corriente fluya desde el colector al emisor, lo que encendía el LED asociado a ese nivel.
+
+En ausencia de agua, el transistor permanecía inactivo (en modo de corte), impidiendo el flujo de corriente y manteniendo el LED apagado. Este funcionamiento se basó en el principio de los transistores como interruptores controlados por corriente, utilizando componentes básicos como transistores 2N3904, LEDs y resistencias. El proyecto no solo demostró la efectividad del circuito en la detección de niveles de agua, sino que también facilitó la comprensión práctica de cómo los transistores pueden ser utilizados para controlar y visualizar señales eléctricas en aplicaciones de detección de líquidos.
+
 ![Captura de pantalla 2024-06-19 004344](https://github.com/bryal14/Fund.Circuitos-Electricos/assets/150269328/225f66d1-5ff4-42b9-a0b2-05666ec7ec07)
 
 ![Captura de pantalla 2024-06-19 003917](https://github.com/bryal14/Fund.Circuitos-Electricos/assets/150269328/fbe41800-2ba5-4381-a974-e1e7313deb3b)
