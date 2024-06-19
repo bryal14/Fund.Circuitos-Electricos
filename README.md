@@ -32,7 +32,7 @@
 Los puntos de detección de nivel de agua se introducen en el recipiente. Cuando el agua toca un punto de detección, permite que la corriente fluya hacia la base del transistor correspondiente. Esto activa el transistor (modo saturación), permitiendo que la corriente fluya desde el colector al emisor, encendiendo el LED correspondiente.
 Si el agua no toca el punto de detección, el transistor permanece en modo de corte, y el LED permanece apagado.
 
-### <span style="color:green">Resultados y Mediciones</span>
+### <span style="color:green">Resultados</span>
 1. Comprensión de la Operación de Transistores BJT
 Función de los Transistores: Se aprendió cómo los transistores NPN 2N3904 pueden ser utilizados como interruptores electrónicos. La base del transistor controla la corriente entre el colector y el emisor, permitiendo o impidiendo el flujo de corriente dependiendo de la presencia de agua.
 Modos de Operación: Se entendieron los modos de operación de los transistores: corte (transistor apagado) y saturación (transistor encendido). Se utilizó la corriente base mínima necesaria para poner el transistor en saturación.
