@@ -1,7 +1,7 @@
 # <span style="color:green">UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE</span>
 
 ### <span style="color:green">Nombre: Almeida Bryan, Angel Toapanta, Simba Alexis</span>
-<span style="color:green">Fecha: 19 de junio de 2024</span>
+<span style="color:green">Fecha: 26 de Julio de 2024</span>
 <span style="color:green">NRC: 17243</span>
 
 <justify>
@@ -9,18 +9,21 @@
 ### <span style="color:green">OBJETIVOS</span>
 
 - **<span style="color:green">Objetivo principal</span>**
-  - Materializar cada uno de los conocimientos adquiridos en clases, realizando de manera correcta cada uno de los circuitos propuestos (Detector de nivel de agua, Led Nocturno), y de las mismas, analizar cada una de sus funciones y aportes en diversas actividades.
+  -El objetivo de este informe es explicar detalladamente la construcción y funcionamiento de dos tipos de circuitos: un circuito escalera con configuración de vaivén de 3 vías y un dimmer electrónico ensamblado en una protoboard. En el primer caso, se busca demostrar cómo diseñar y montar un circuito que permite controlar una carga desde múltiples ubicaciones, común en sistemas de iluminación y automatización. En el segundo caso, se detalla el ensamblaje y operación de un dimmer electrónico, utilizado para regular la luminosidad de una lámpara.
+
 
 - **<span style="color:green">Objetivos específicos</span>**
-  - **<span style="color:green">Blindar de manera tangible cada una de las leyes y principios de los Circuitos Eléctricos adquiridos en clases.</span>**
-  - **<span style="color:green">Conocer cada uno de los componentes al momento de ensamblar el circuito y realizar la conexión correcta de cada una de ellas.</span>**
-  - **<span style="color:green">Visualizar la interacción y el funcionamiento entre los componentes que forman el circuito.</span>**
+  - **<span style="color:green">Explicar el diseño y montaje de un circuito escalera, detallando los componentes necesarios y el esquema eléctrico.</span>**
+  - **<span style="color:green">Proporcionar una guía paso a paso para el ensamblaje del dimmer electrónico en una protoboard.</span>**
+  - **<span style="color:green">Facilitar la comprensión práctica de los circuitos en aplicaciones reales.</span>**
 
 ### <span style="color:green">Marco Teórico</span>
 (Resumen)
-En el proyecto de detector de nivel de agua, se utilizó un circuito simple para identificar la presencia de agua en diferentes niveles de un recipiente. Los puntos de detección de nivel de agua fueron ubicados dentro del recipiente. Cuando el agua alcanzaba un punto de detección, permitía que la corriente eléctrica fluyera hacia la base de un transistor correspondiente. Este flujo de corriente activaba el transistor, permitiendo que la corriente fluya desde el colector al emisor, lo que encendía el LED asociado a ese nivel.
+El proyecto se centra en el diseño, montaje y análisis de dos componentes cruciales en sistemas eléctricos: el circuito escalera y el dimmer electrónico. El objetivo es aplicar conceptos fundamentales de ingeniería eléctrica y electrónica para optimizar el control de cargas y mejorar la eficiencia energética en aplicaciones prácticas.
 
-En ausencia de agua, el transistor permanecía inactivo (en modo de corte), impidiendo el flujo de corriente y manteniendo el LED apagado. Este funcionamiento se basó en el principio de los transistores como interruptores controlados por corriente, utilizando componentes básicos como transistores 2N3904, LEDs y resistencias. El proyecto no solo demostró la efectividad del circuito en la detección de niveles de agua, sino que también facilitó la comprensión práctica de cómo los transistores pueden ser utilizados para controlar y visualizar señales eléctricas en aplicaciones de detección de líquidos.
+En el desarrollo del circuito escalera, se ha diseñado y montado un sistema que permite controlar una carga desde múltiples ubicaciones utilizando interruptores de vaivén. Este enfoque facilita la gestión de sistemas de iluminación tanto en entornos residenciales como industriales, modificando la ruta de la corriente a través de los interruptores. La experiencia adquirida incluye habilidades en el diseño del circuito, la configuración de los interruptores y la resolución de problemas relacionados con el flujo de corriente.
+
+Por otro lado, el proyecto también ha incluido el ensamblaje y la configuración de un dimmer electrónico en una protoboard. Se han utilizado técnicas de modulación de tensión, como la modulación por ancho de pulso (PWM) y el control de fase, para regular la potencia entregada a una carga. Este componente permite ajustar la luminosidad de lámparas y la velocidad de motores eléctricos, contribuyendo a una mayor eficiencia energética y flexibilidad en el control de sistemas eléctricos.
 
 ![Captura de pantalla 2024-06-19 004344](https://github.com/bryal14/Fund.Circuitos-Electricos/assets/150269328/225f66d1-5ff4-42b9-a0b2-05666ec7ec07)
 
@@ -34,35 +37,32 @@ En ausencia de agua, el transistor permanecía inactivo (en modo de corte), impi
 -Conectar la base de cada transistor a un punto de detección de nivel de agua. Usar cables de protoboard para hacer esta conexión.
 -Utilizar la resistencia de 1 kΩ para limitar la corriente en la base de los transistores.
 ### <span style="color:green">Explicación</span>
-Los puntos de detección de nivel de agua se introducen en el recipiente. Cuando el agua toca un punto de detección, permite que la corriente fluya hacia la base del transistor correspondiente. Esto activa el transistor (modo saturación), permitiendo que la corriente fluya desde el colector al emisor, encendiendo el LED correspondiente.
-Si el agua no toca el punto de detección, el transistor permanece en modo de corte, y el LED permanece apagado.
+Circuito Escalera
+
+Un circuito escalera, o circuito de conmutación de 3 vías, permite controlar una carga, como una lámpara, desde múltiples ubicaciones mediante interruptores de vaivén. Los interruptores están conectados de tal manera que al cambiar el estado de uno de ellos, se altera la ruta de la corriente, encendiendo o apagando la carga.Al cambiar la posición de un interruptor, se modifica la conexión entre los conductores, permitiendo o interrumpiendo el flujo de corriente hacia la carga. Esto permite que la carga sea controlada desde cualquier interruptor del circuito.
+Los estudiantes aprenderán a diseñar y montar un circuito escalera, comprenderán cómo configurar y conectar los interruptores de vaivén para controlar eficientemente una carga, y podrán aplicar estos conocimientos en entornos industriales y residenciales para mejorar el control de sistemas de iluminación.
+
+Dimmer Electrónico
+Un dimmer electrónico regula la potencia entregada a una carga, como una lámpara o un motor eléctrico, permitiendo ajustar su luminosidad o velocidad. Su ensamblaje en una protoboard incluye componentes electrónicos que permiten modular la tensión de salida mediante técnicas como la modulación por ancho de pulso (PWM) o el control de fase.
+El dimmer ajusta la potencia entregada a la carga mediante la modulación de la tensión de salida, controlando así la intensidad de la luz o la velocidad del motor.
+Los estudiantes aprenderán a ensamblar un dimmer electrónico, entenderán su principio de operación y cómo se utiliza para regular la potencia en una carga. Estos conocimientos permitirán mejorar la eficiencia energética y el control en sistemas de iluminación y motores eléctricos en diversas aplicaciones.
+
 
 ### <span style="color:green">Resultados</span>
-1. Comprensión de la Operación de Transistores BJT
-Función de los Transistores: Se aprendió cómo los transistores NPN 2N3904 pueden ser utilizados como interruptores electrónicos. La base del transistor controla la corriente entre el colector y el emisor, permitiendo o impidiendo el flujo de corriente dependiendo de la presencia de agua.
-Modos de Operación: Se entendieron los modos de operación de los transistores: corte (transistor apagado) y saturación (transistor encendido). Se utilizó la corriente base mínima necesaria para poner el transistor en saturación.
-2. Diseño de Circuitos con LEDs y Resistencias
-Uso de LEDs: Se aprendió a conectar LEDs en serie con resistencias para limitar la corriente y evitar daños. La correcta selección de resistencias es crucial para mantener la integridad de los LEDs.
-Cálculo de Resistencias: Se aplicaron principios de Ohm para calcular las resistencias necesarias. Se seleccionaron resistencias de 470 ohmios para los LEDs y 1 kΩ para la base de los transistores, considerando las características de corriente y voltaje del circuito.
-3. Implementación de Circuitos en Protoboard
-Cableado y Conexiones: Se adquirió experiencia en la configuración de un circuito en una protoboard, asegurando conexiones firmes y organizadas. La práctica incluyó la colocación estratégica de componentes y cables para evitar cortocircuitos y mejorar la eficiencia del montaje.
-Pruebas y Verificación: Se desarrollaron habilidades para probar y verificar circuitos, asegurando que cada componente funcionara correctamente. Se realizó la depuración de errores en las conexiones y se confirmó el funcionamiento del circuito a través de pruebas prácticas.
-4. Detección de Niveles de Líquido
-Puntos de Detección: Se aprendió a implementar puntos de detección de nivel de agua utilizando cables conductores. La introducción de estos puntos en el agua demostró cómo la conductividad del agua puede activar los transistores.
-Indicadores Visuales: Se comprendió la importancia de los indicadores visuales (LEDs) para representar niveles de agua de manera intuitiva. Cada LED indica un nivel específico de agua (bajo, medio, alto), proporcionando una señal clara y fácil de interpretar.
-5. Integración de Conocimientos Teóricos y Prácticos
-Teoría y Práctica: Se integraron conceptos teóricos de electrónica (como el funcionamiento de transistores y LEDs) con la práctica de construir y probar circuitos reales. Esta experiencia práctica consolidó el entendimiento de los principios teóricos.
+1. Diseño y Montaje del Circuito Escalera: Hemos desarrollado la capacidad para diseñar y montar un circuito escalera, utilizando interruptores de vaivén para controlar una carga desde múltiples ubicaciones. Este proceso incluye la comprensión detallada de cómo el cambio en la posición de los interruptores modifica la ruta de la corriente, permitiendo encender o apagar la carga según sea necesario. Este conocimiento se aplica tanto en entornos residenciales como industriales, optimizando el control de sistemas de iluminación y otros dispositivos conectados.
+2. Funcionamiento del Circuito Escalera: Hemos adquirido una comprensión profunda de cómo funciona el circuito escalera, aprendiendo a identificar y solucionar problemas relacionados con el control de la carga mediante interruptores de vaivén. La capacidad para modificar la conexión entre conductores a través de los interruptores nos permite gestionar de manera efectiva el flujo de corriente y el funcionamiento de la carga en diferentes puntos de control.
+3. Ensamblaje y Configuración del Dimmer Electrónico: Nos hemos familiarizado con el ensamblaje y la configuración de un dimmer electrónico en una protoboard. Utilizamos técnicas de modulación de tensión, como la modulación por ancho de pulso (PWM) o el control de fase, para regular la potencia entregada a una carga. Esta habilidad nos permite ajustar la luminosidad de una lámpara o la velocidad de un motor eléctrico, mejorando la flexibilidad y el control en diversas aplicaciones.
+4. Aplicación del Dimmer Electrónico: Hemos aprendido a aplicar los principios del dimmer electrónico para mejorar la eficiencia energética y el control en sistemas de iluminación y motores eléctricos. La comprensión de cómo regular la potencia en función de la necesidad específica de la carga nos permite optimizar el rendimiento y la eficiencia de los sistemas eléctricos, preparándonos para enfrentar desafíos prácticos en el campo de la ingeniería eléctrica.
+
 ### <span style="color:green">Video</span>
 * https://youtu.be/NOz_DMDxUzM       medidor de agua
 * https://www.youtube.com/watch?v=_or5QkrHyXM   Led nocturno automatico
 
   
 ### <span style="color:green">Conclusiones</span>
-El circuito diseñado resultó ser muy efectivo para detectar niveles de agua. Utilizando transistores como interruptores, se logró encender los LEDs cuando los puntos de detección tocaban el agua. Esto comprobó la fiabilidad del circuito para mostrar los niveles de líquido de manera precisa.
+A través de la realización de los proyectos relacionados con circuitos escalera y dimmers electrónicos, hemos logrado un entendimiento integral y práctico de conceptos clave en ingeniería eléctrica y electrónica. En el diseño y montaje de circuitos escalera, hemos demostrado una sólida competencia en la configuración de interruptores de vaivén, permitiéndonos controlar una carga desde múltiples ubicaciones y optimizar el sistema de iluminación en entornos residenciales e industriales. La habilidad para gestionar el flujo de corriente y solucionar problemas asociados con el funcionamiento de estos circuitos refleja una comprensión profunda de los principios eléctricos y su aplicación práctica.
+Asimismo, en el ensamblaje y configuración de dimmers electrónicos, hemos adquirido una experiencia significativa en la regulación de la potencia entregada a cargas diversas. La implementación de técnicas de modulación por ancho de pulso (PWM) y control de fase en una protoboard ha demostrado nuestra capacidad para ajustar la luminosidad de lámparas y la velocidad de motores eléctricos, lo que contribuye a la optimización del rendimiento y la eficiencia energética en distintas aplicaciones.
 
-El uso de una protoboard y componentes básicos como transistores, LEDs y resistencias mostró que es posible crear un sistema de detección de nivel de agua con recursos mínimos. La simplicidad del diseño facilita su replicación y aplicación en sistemas prácticos como riego automático y monitoreo de tanques de agua.
-
-Durante el proyecto, se aplicaron conceptos clave de la electrónica. Los transistores, que son pequeños dispositivos que actúan como interruptores controlados, permitieron que la corriente fluyera y encendiera los LEDs cuando el agua estaba presente. Esta experiencia práctica reforzó el entendimiento de cómo funcionan estos componentes y cómo interactúan en un circuito.
 
 ### <span style="color:green">Bibliografía</span>
 
@@ -70,7 +70,10 @@ Durante el proyecto, se aplicaron conceptos clave de la electrónica. Los transi
 
 Floyd, T.(2007). Principios de circuitos electricos(Octava edi). México Pearson
 
-Video: https://www.youtube.com/watch?v=eix344ZICKA
+Video: 
+https://youtu.be/q3oUc9_qnyc
+https://youtu.be/-Q6ZaH_hCBc 
+
 
 
 </justify>
