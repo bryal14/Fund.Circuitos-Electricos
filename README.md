@@ -2,7 +2,7 @@
 
 ### <span style="color:green">Nombre: ALMEIDA BRYAN, CABEZAS JAIME</span>
 <span style="color:green">Fecha: 26 de Noviembre de 2024</span>
-<span style="color:green">NRC: 17243</span>
+<span style="color:green">NRC: 5060</span>
 
 <justify>
 
