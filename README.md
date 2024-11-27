@@ -23,7 +23,8 @@ En el desarrollo del circuito escalera, se ha diseñado y montado un sistema que
 
 Por otro lado, el proyecto también ha incluido el ensamblaje y la configuración de un dimmer electrónico en una protoboard. Se han utilizado técnicas de modulación de tensión, como la modulación por ancho de pulso (PWM) y el control de fase, para regular la potencia entregada a una carga. Este componente permite ajustar la luminosidad de lámparas y la velocidad de motores eléctricos, contribuyendo a una mayor eficiencia energética y flexibilidad en el control de sistemas eléctricos.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/a0eb2017-340f-48c7-be3b-719f2e1581d3)
+
 
 
 
