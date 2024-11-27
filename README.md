@@ -1,6 +1,6 @@
 # <span style="color:green">UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE</span>
 
-### <span style="color:green">Nombre: Almeida Bryan, Angel Toapanta, Simba Alexis</span>
+### <span style="color:green">Nombre: ALMEIDA BRYAN, CABEZAS JAIME</span>
 <span style="color:green">Fecha: 26 de Julio de 2024</span>
 <span style="color:green">NRC: 17243</span>
 
@@ -9,13 +9,11 @@
 ### <span style="color:green">OBJETIVOS</span>
 
 - **<span style="color:green">Objetivo principal</span>**
-  -El objetivo de este informe es explicar detalladamente la construcción y funcionamiento de dos tipos de circuitos: un circuito escalera con configuración de vaivén de 3 vías y un dimmer electrónico ensamblado en una protoboard. En el primer caso, se busca demostrar cómo diseñar y montar un circuito que permite controlar una carga desde múltiples ubicaciones, común en sistemas de iluminación y automatización. En el segundo caso, se detalla el ensamblaje y operación de un dimmer electrónico, utilizado para regular la luminosidad de una lámpara.
+  -Diseñar, planificar e implementar un sistema de respaldo energético que permita mantener operativos los dispositivos de uso más frecuentemente usados durante los cortes energéticos. 
 
 
 - **<span style="color:green">Objetivos específicos</span>**
-  - **<span style="color:green">Explicar el diseño y montaje de un circuito escalera, detallando los componentes necesarios y el esquema eléctrico.</span>**
-  - **<span style="color:green">Proporcionar una guía paso a paso para el ensamblaje del dimmer electrónico en una protoboard.</span>**
-  - **<span style="color:green">Facilitar la comprensión práctica de los circuitos en aplicaciones reales.</span>**
+  - **<span style="color:green">Calcular el consumo energético de los dispositivos esenciales y seleccionar una power station o UPS que satisfaga los requerimientos calculados.</span>**
 
 ### <span style="color:green">Marco Teórico</span>
 (Resumen)
@@ -25,9 +23,8 @@ En el desarrollo del circuito escalera, se ha diseñado y montado un sistema que
 
 Por otro lado, el proyecto también ha incluido el ensamblaje y la configuración de un dimmer electrónico en una protoboard. Se han utilizado técnicas de modulación de tensión, como la modulación por ancho de pulso (PWM) y el control de fase, para regular la potencia entregada a una carga. Este componente permite ajustar la luminosidad de lámparas y la velocidad de motores eléctricos, contribuyendo a una mayor eficiencia energética y flexibilidad en el control de sistemas eléctricos.
 
-![Captura de pantalla 2024-06-19 004344](https://github.com/bryal14/Fund.Circuitos-Electricos/assets/150269328/225f66d1-5ff4-42b9-a0b2-05666ec7ec07)
+![Uploading image.png…]()
 
-![Captura de pantalla 2024-06-19 003917](https://github.com/bryal14/Fund.Circuitos-Electricos/assets/150269328/fbe41800-2ba5-4381-a974-e1e7313deb3b)
 
 
 ### <span style="color:green">Procedimiento</span>
