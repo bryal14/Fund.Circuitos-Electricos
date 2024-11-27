@@ -17,6 +17,7 @@
 
 ### <span style="color:green">Marco Teórico</span>
 (Resumen)
+
 Se garantiza que los dispositivos permanezcan operativos durante cortes de energía al determinar su consumo energético, con el fin de seleccionar una estación de energía o un sistema de alimentación ininterrumpida (UPS) adecuado.
 Se respalda mediante el uso de energía solar, ya que asegura que los dispositivos sean funcionales y, al mismo tiempo, reduciendo el impacto ambiental. De manera que, la adopción de soluciones energéticas responsables es clave para enfrentar los desafíos energéticos en el hogar.
 
