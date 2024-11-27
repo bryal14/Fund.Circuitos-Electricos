@@ -17,11 +17,8 @@
 
 ### <span style="color:green">Marco Teórico</span>
 (Resumen)
-El proyecto se centra en el diseño, montaje y análisis de dos componentes cruciales en sistemas eléctricos: el circuito escalera y el dimmer electrónico. El objetivo es aplicar conceptos fundamentales de ingeniería eléctrica y electrónica para optimizar el control de cargas y mejorar la eficiencia energética en aplicaciones prácticas.
-
-En el desarrollo del circuito escalera, se ha diseñado y montado un sistema que permite controlar una carga desde múltiples ubicaciones utilizando interruptores de vaivén. Este enfoque facilita la gestión de sistemas de iluminación tanto en entornos residenciales como industriales, modificando la ruta de la corriente a través de los interruptores. La experiencia adquirida incluye habilidades en el diseño del circuito, la configuración de los interruptores y la resolución de problemas relacionados con el flujo de corriente.
-
-Por otro lado, el proyecto también ha incluido el ensamblaje y la configuración de un dimmer electrónico en una protoboard. Se han utilizado técnicas de modulación de tensión, como la modulación por ancho de pulso (PWM) y el control de fase, para regular la potencia entregada a una carga. Este componente permite ajustar la luminosidad de lámparas y la velocidad de motores eléctricos, contribuyendo a una mayor eficiencia energética y flexibilidad en el control de sistemas eléctricos.
+Se garantiza que los dispositivos permanezcan operativos durante cortes de energía al determinar su consumo energético, con el fin de seleccionar una estación de energía o un sistema de alimentación ininterrumpida (UPS) adecuado.
+Se respalda mediante el uso de energía solar, ya que asegura que los dispositivos sean funcionales y, al mismo tiempo, reduciendo el impacto ambiental. De manera que, la adopción de soluciones energéticas responsables es clave para enfrentar los desafíos energéticos en el hogar.
 
 ![image](https://github.com/user-attachments/assets/a0eb2017-340f-48c7-be3b-719f2e1581d3)
 
@@ -29,10 +26,11 @@ Por otro lado, el proyecto también ha incluido el ensamblaje y la configuració
 
 
 ### <span style="color:green">Procedimiento</span>
--Eleguir los dispositivos que se van a conectar a la UPS
--Conocer las potencias nominales de los dispositivos de elección
--Calcular el consumo de energia en este caso 4 horas con la formula proporcionada en la guia 
--Diseñar los planos y ubicar espacialmente los lugares en los que va a ir la fuente de poder y podrá alimentar a los dispositivos elejidos a eleccion
+-Elegir los dispositivos que se van a conectar a la UPS 
+-Conocer las potencias nominales de los dispositivos de elección 
+-Calcular el consumo de energía en este caso 4 horas con la formula proporcionada en la guía 
+-Diseñar los planos y ubicar espacialmente los lugares en los que va a ir la fuente de poder y podrá alimentar a los dispositivos electos.
+
 ### <span style="color:green">Explicación</span>
 UPS O SISTEMA DE RESPALDO ENERGÉTICO PARA EL HOGAR
 
