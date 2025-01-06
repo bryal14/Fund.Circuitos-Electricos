@@ -1,7 +1,7 @@
 # <span style="color:green">UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE</span>
 
 ### <span style="color:green">Nombre: ALMEIDA BRYAN, CABEZAS JAIME</span>
-<span style="color:green">Fecha: 26 de Noviembre de 2024</span>
+<span style="color:green">Fecha: 5 de Enero del 2025</span>
 <span style="color:green">NRC: 5060</span>
 
 <justify>
@@ -9,11 +9,13 @@
 ### <span style="color:green">OBJETIVOS</span>
 
 - **<span style="color:green">Objetivo principal</span>**
-  -Diseñar, planificar e implementar un sistema de respaldo energético que permita mantener operativos los dispositivos de uso más frecuentemente usados durante los cortes energéticos. 
+  -Determinar la capacidad del panel solar necesaria para recargar la power station o UPS y definir la ubicación geográfica óptima para instalarlo.
 
 
 - **<span style="color:green">Objetivos específicos</span>**
-  - **<span style="color:green">Calcular el consumo energético de los dispositivos esenciales y seleccionar una power station o UPS que satisfaga los requerimientos calculados.</span>**
+  - **<span style="color:green">. Determinar la potencia mínima del panel solar necesaria para cubrir el consumo energético total.
+. Investigar la posición geográfica para establecer el ángulo y orientación óptimos del panel solar.
+</span>**
 
 ### <span style="color:green">Marco Teórico</span>
 (Resumen)
@@ -21,7 +23,8 @@
 Se garantiza que los dispositivos permanezcan operativos durante cortes de energía al determinar su consumo energético, con el fin de seleccionar una estación de energía o un sistema de alimentación ininterrumpida (UPS) adecuado.
 Se respalda mediante el uso de energía solar, ya que asegura que los dispositivos sean funcionales y, al mismo tiempo, reduciendo el impacto ambiental. De manera que, la adopción de soluciones energéticas responsables es clave para enfrentar los desafíos energéticos en el hogar.
 
-![image](https://github.com/user-attachments/assets/a0eb2017-340f-48c7-be3b-719f2e1581d3)
+![image](https://github.com/user-attachments/assets/4c953093-bddf-41e8-aa27-14f91f394b15)
+
 
 
 
